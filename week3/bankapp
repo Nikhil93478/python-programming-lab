@@ -1,0 +1,11 @@
+def credit(Amount,value):
+    Amount +=value
+    print(Amount)
+
+Amount =0
+credit(Amount,500)
+def debit (Amount,value):
+    Amount=Amount-value
+    print(Amount)
+Amount=500
+debit(Amount,150)
